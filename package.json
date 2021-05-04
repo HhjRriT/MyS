@@ -1,0 +1,37 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HhjRriT/cinema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HhjRriT/cinema/issues"
+  },
+  "homepage": "https://github.com/HhjRriT/cinema#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "date-fns": "^2.21.1",
+    "history": "^5.0.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "lodash.template": "^4.5.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0"
+  }
+}
